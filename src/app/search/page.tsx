@@ -56,7 +56,7 @@ const Search = () => {
   ]);
 
   return (
-    <Box>
+    <Box justifyContent="center">
       <Flex
         cursor="pointer"
         bg="gray.100"
@@ -75,10 +75,10 @@ const Search = () => {
         </Icon>
       </Flex>
       {searchFilters && <SearchFilters />}
-      <Text fontSize="2xl" p="4" fontWeight="bold">
+      <Text fontSize="2xl" p="4" pl="20" fontWeight="bold">
         Properties {purpose}
       </Text>
-      <Flex flexWrap="wrap">
+      <Flex flexWrap="wrap" justifyContent="center">
         {properties.map((property) => (
           <Property property={property} key={property.id} />
         ))}

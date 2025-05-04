@@ -125,7 +125,7 @@ const SearchFilters: React.FC = () => {
   };
 
   return (
-    <Box bg="gray.100" p="4">
+    <Box bg="gray.100" p="3" mt="5" pl="20" pr="20">
       <Grid templateColumns="repeat(8, 1fr)" gap={2} alignItems="center">
         {filterData.map((filter) => (
           <GridItem key={filter.queryName}>
@@ -133,7 +133,7 @@ const SearchFilters: React.FC = () => {
               onChange={(e) =>
                 searchProperties({ [filter.queryName]: e.target.value })
               }
-              style={{ width: "100%", padding: "0.5rem" }}
+              style={{ width: "90%", padding: "20" }}
             >
               <option value="">{`Select ${filter.queryName}`}</option>
               {filter.items.map((item) => (
