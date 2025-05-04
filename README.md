@@ -7,6 +7,7 @@
 ## Technology Used
 
 - TypeScript
+- JavaScript
 - Next.js
 - Axios
 - TailwindCSS
