@@ -1,10 +1,10 @@
-# Real-State Web App
+# 🏡Real-State Web App
 
 ![Screenshot of Home Page](/src/app/assets/home.png)
 ![Screenshot of Search Page](/src/app/assets/search.png)
 ![Screenshot of Specific Page](/src/app/assets/specific.png)
 
-## Technology Used
+## ⚙️Technology Used
 
 - TypeScript
 - JavaScript
@@ -15,6 +15,6 @@
 - API Integration: RapidAPI
 - Framer-Motion
 
-### Developed by
+### 👨‍💻Developed by
 
 Mahmudul Hasan Sakib
